@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo" alt="Starbucks Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>Experience the best coffee from around the world. From our classic espresso drinks to seasonal favorites, there's something for everyone at Starbucks.</p>
+                <a href="#" class="cta">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="img1.png" class="starbucks" alt="Starbucks Coffee">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb1.png" alt="Thumbnail 1" onclick="imgSlider('img1.png'); changeCircleColor('#017143')"></li>
+            <li><img src="thumb2.png" alt="Thumbnail 2" onclick="imgSlider('img2.png'); changeCircleColor('#eb7495')"></li>
+            <li><img src="thumb3.png" alt="Thumbnail 3" onclick="imgSlider('img3.png'); changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </section>
+
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="featureBox">
+            <div class="feature">
+                <img src="Fea1.jpg" alt="Feature 1">
+                <h3>Premium Quality</h3>
+                <p>Our coffee beans are sourced from the best farms around the world, ensuring the highest quality in every cup.</p>
+            </div>
+            <div class="feature">
+                <img src="f2.jpg" alt="Feature 2">
+                <h3>Wide Variety</h3>
+                <p>From bold espresso to refreshing iced drinks, we offer a wide range of beverages to satisfy every taste.</p>
+            </div>
+            <div class="feature">
+                <img src="f3.png" alt="Feature 3">
+                <h3>Cozy Ambiance</h3>
+                <p>Our stores provide a warm and inviting atmosphere, perfect for relaxing or catching up with friends.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Join the Starbucks Community</h2>
+        <p>Sign up for our newsletter and be the first to know about new products, special offers, and events.</p>
+        <a href="#" class="cta">Sign Up Now</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
